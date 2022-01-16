@@ -1,0 +1,67 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #747582;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1170px;
+}
+
+.content2 {
+  max-width: 1404px;
+}
+
+.rect {
+  background-image: url('rect.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map {
+  background-image: url('map.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue {
+  background-image: url('blue.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-black {
+  color: #282C4B;
+}
+
+.bg-red-400 {
+  background-color: #FF698D;
+}
+
+
+
+
+
+.bg-red-300 {
+ background-color: #FFF8F8;
+}
+
+.bg-red-500 {
+  background-color: #FB3F6C;
+}
+
+.border-red-400 {
+ border-color: #FF698D;
+}
+
+.text-red-500 {
+ color: #F17216;
+}
