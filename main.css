@@ -46,10 +46,6 @@ img {
   background-color: #FF698D;
 }
 
-
-
-
-
 .bg-red-300 {
  background-color: #FFF8F8;
 }
@@ -64,4 +60,22 @@ img {
 
 .text-red-500 {
  color: #F17216;
+}
+
+.line-after {
+  position: relative;
+}
+
+.line-after::after {
+  background: url('line.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
